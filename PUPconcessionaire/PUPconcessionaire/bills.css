@@ -1,0 +1,37 @@
+body {
+    margin: auto;
+    background-image: url('img/lagoonpup.jpg');
+    background-size: cover;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh; /* Set the minimum height to the height of the viewport */
+}
+
+button { 
+    font-family: arial; 
+    font-size: 18px; 
+    margin-top: 15px; 
+    width: 250px;
+    height: 40px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    border-style: solid; 
+    background-color: maroon; 
+    color: white; 
+    border-width: 2px;
+    border-color: white;
+    border-width: 2px;
+   }
+   
+   button:hover{
+     opacity: 0.8;
+     background-color: white;
+     color: maroon; 
+   }
+
+.billcon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}

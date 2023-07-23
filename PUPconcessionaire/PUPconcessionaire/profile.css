@@ -1,0 +1,55 @@
+.profile_form {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.profile_form .form {
+    background: white;
+    width: 100%;
+    border-top: 5px solid maroon;
+    padding: 50px 30px;  
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form_group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px; 
+}
+.form_group label {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.form_group input {
+    padding: 10px;
+}
+.form_buttons {
+    display: flex; 
+    flex-flow: row wrap;
+    margin: 0 -10px;
+}
+.form_buttons button {
+    flex: 0 0 calc(50% - 20px);
+    width: 100%;
+    margin: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    transition: all .3s ease-in-out;
+}
+.form_buttons button.save {
+    background: maroon;
+    color: #fff;
+    border: 1px solid maroon;
+}
+.form_buttons button.cancel {
+    background: #fff;
+    border: 1px solid maroon;
+}
+.form_buttons a {
+    color: maroon;
+}
